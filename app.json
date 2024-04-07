@@ -4,10 +4,10 @@
     "slug": "threads",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/threads.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/threads.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/threads.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mdfarhankc.threads"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/threads.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6905d214-8354-4dfc-88d2-d8f85acea25a"
+      }
     }
   }
 }
